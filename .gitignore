@@ -1,0 +1,33 @@
+# Dependencias
+node_modules/
+
+# Next.js / build
+.next/
+out/
+build/
+*.tsbuildinfo
+next-env.d.ts
+
+# Variables de entorno: NUNCA se suben (salvo el ejemplo)
+.env
+.env*.local
+.env.*
+!.env.example
+
+# Tests
+coverage/
+playwright-report/
+test-results/
+
+# Backups / dumps de base (contienen datos personales)
+*.sql.gz
+*.dump
+backups/
+
+# Vercel
+.vercel
+
+# Sistema / editor
+.DS_Store
+Thumbs.db
+*.log
